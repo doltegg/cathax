@@ -2,7 +2,7 @@ title: Cathax's Reports
 description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
 
 url: https://doltegg.github.io
-baseurl: /long
+baseurl: /cathax
 paginate_path: "/page:num/"
 permalink: /:title/
 
@@ -23,6 +23,6 @@ social:
   github: brianmaierjr
   twitter: brianmaierjr
   facebook: brianmaierjr
-  email: brimaidesigns@gmail.com
+  email: r90323011@ntu.edu.tw
 
 google_analytics: "UA-58263416-1"
