@@ -46,5 +46,5 @@ tags: [金融商品, 意有所指]
 
 我真的好想知道，為何國泰人壽沒有違法；同時間更想知道「誠信」二字到底誰說了算？總經理？總機構法令遵循主管？貸款者的你？我？不相干的第三者？
 
-![1](/cathax/assets/img/2019/hungry1.jpg)
-<img src="https://doltegg.github.io/cathax/assets/img/2019/hungry1.jpg" style="width:650px"/>
+<!--  ![1](/cathax/assets/img/2019/hungry1.jpg)-->
+<img src="https://doltegg.github.io/cathax/assets/img/2019/hungry1.jpg" style="width:600px"/>
