@@ -10,13 +10,13 @@ tags: [金融商品, 意有所指]
 
 > 前項所稱定儲利率指數，係以台銀、土銀、合庫、一銀、華銀、彰銀、台北富邦銀、兆豐商銀、台灣企銀及中信銀十家行庫於每年之三、六、九、十二月當月最末之五個營業日於中央銀行網站公告之一年期一般定期儲蓄存款固定利率於扣除最高及最低各二家後計算所得之平均值。前述十家行庫如有合併、被合併、消滅、停業、破產、重整、遭勒令停業、監管、接管或取消一年期一般定期儲蓄存款產品等相關情事，則取消其定儲利率指數取樣銀行資格，並以前述之其餘銀行之上開平均值計算。
 
-<img src="https://doltegg.github.io/cathax/assets/img/2019/illegal1jpg" style="width:350px"/>
+<img src="https://doltegg.github.io/cathax/assets/img/2019/illegal1.jpg" style="width:350px"/>
 
 及對外的官網網站對指標利率的說明，其上文字概念更為簡單：
 >係參考台銀、土銀、合庫、一銀、華銀、彰銀、台北富邦、兆豐商銀、台灣企銀及中信銀十家行庫 (扣除利率最高和最低各兩家) 於中央銀行網站公告之一年期一般定期儲蓄存款固定利率，以六家銀行之平均值計算。
 除此之外，別無其他註解及說明。
 
-<img src="https://doltegg.github.io/cathax/assets/img/2019/illegal2jpg" style="width:650px"/>
+<img src="https://doltegg.github.io/cathax/assets/img/2019/illegal2.jpg" style="width:650px"/>
 
 仔細看以上 98 年 3 月以前的兩種定義，完全沒提到四捨五入，所以一直以來計算指標利率的經辦都只能在最後的數字為了要取足 2 位數小數才在第 3 位作了四捨五入進入第 2 位。不敢也不能多作任何契約上所未記載的動作。
 
@@ -26,7 +26,7 @@ tags: [金融商品, 意有所指]
 
 國泰人壽歷經 98 年 3 月違法公告指標利率為 0.81% 後，為了要消滅證據，洗白二次四捨五入的正當性，終於在 98 年 5 月 13 日訂定「國泰人壽保險公司定儲指標利率訂價作業辦法」，用第三條正式將指標利率的計算方法、四捨五入規定進入指標利率。
 
-<img src="https://doltegg.github.io/cathax/assets/img/2019/illegal3jpg" style="width:600px"/>
+<img src="https://doltegg.github.io/cathax/assets/img/2019/illegal3.jpg" style="width:600px"/>
 
 而這個動作就是為了要圓 98 年 3 月所說的謊所編造出來的另一個謊。想要神不知鬼不覺地將違法的事實洗白，真是無所不用其極。
 
