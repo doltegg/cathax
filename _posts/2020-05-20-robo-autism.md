@@ -5,13 +5,18 @@ date: 2020-05-20 21:24:11 +0000
 category: 評
 tags: [金融商品, 意有所指]
 ---
+
+<iframe width="962" height="541" src="https://www.youtube.com/embed/R5qgfypXDec" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ![智能投資影片](http://doltegg.github.io/blog/assets/images/2020/robo1.png)<br />
+
+<!--more-->
 
 某銀行在推廣智能投資工具的體驗會上，播出一支重金禮聘網紅博恩及視網膜所拍攝的廣告。
 
 我就是衝著視網膜而參加該體驗會的。我以為有了視網膜，會有他那極端嘲諷惡搞的手法，說出該銀行的智能投資工具是如何的荒謬、如何的叫投資人賠錢。
 
-<!--more-->
+
 
 
 結果沒有，視網膜一本正經當起主播，搭配博恩扮演的醫生，有模有樣地解釋起智能投資工具，娓娓道出一個完全把在場參加體驗會的人全當作白痴的情節，絲毫無違和。
