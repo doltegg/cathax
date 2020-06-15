@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 金融消費評議中心要求補正
+title: 補正
 date: 2020-06-11 14:22:11 +0000
 category: 評
 tags: [金融商品, 意有所指]
