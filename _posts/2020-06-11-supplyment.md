@@ -12,5 +12,5 @@ tags: [金融商品, 意有所指]
 
 
 
-<img src="https://doltegg.github.io/cathax/assets/img/2020/supplyment.jpg" style="width:600px"/>
+<img src="https://doltegg.github.io/cathax/assets/img/2020/supplyment.jpg" style="width:500px"/>
 
