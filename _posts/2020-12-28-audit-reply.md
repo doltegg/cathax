@@ -16,8 +16,13 @@ tags: [指標利率, 霖園集團員工貸款, Robo]
 
 怎麼堂堂一個稽核處不懂這道理。
 
+<!--
 <img src="/blog/assets/images/2020/audit1.jpg" style="width:550px"/>
 <img src="/blog/assets/images/2020/audit1.jpg" style="width:550px"/>
 <img src="/blog/assets/images/2020/audit1.jpg" style="width:550px"/>
 <img src="/blog/assets/images/2020/audit1.jpg" style="width:550px"/>
-
+-->
+![1](/blog/assets/images/2020/audit1.jpg)
+![1](/blog/assets/images/2020/audit2.jpg)
+![1](/blog/assets/images/2020/audit3.jpg)
+![1](/blog/assets/images/2020/audit4.jpg)
