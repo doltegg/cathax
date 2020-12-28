@@ -23,6 +23,6 @@ tags: [指標利率, 霖園集團員工貸款, Robo]
 <img src="/blog/assets/images/2020/audit1.jpg" style="width:550px"/>
 -->
 ![1](/blog/assets/images/2020/audit1.jpg)
-![1](/blog/assets/images/2020/audit2.jpg)
-![1](/blog/assets/images/2020/audit3.jpg)
-![1](/blog/assets/images/2020/audit4.jpg)
+![2](/blog/assets/images/2020/audit2.jpg)
+![3](/blog/assets/images/2020/audit3.jpg)
+![4](/blog/assets/images/2020/audit4.jpg)
