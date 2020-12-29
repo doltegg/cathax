@@ -69,5 +69,5 @@ tags: []
 2. <a href="https://doltegg.github.io/cathax/foi-apply/" target="_blank">評議申請</a>
 1. <a href="https://doltegg.github.io/cathax/make-statements/" target="_blank">向國泰世華銀行要求提出陳述意見書</a>
 2. <a href="https://doltegg.github.io/cathax/supplyment/" target="_blank">補正</a>
-
+2. <a href="https://doltegg.github.io/cathax/assets/img/2020/foi_bk.pdf" target="_blank">評議中心判決評議書</a>
 
