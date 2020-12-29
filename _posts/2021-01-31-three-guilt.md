@@ -9,7 +9,7 @@ tags: []
 #### 綜合官方回應
 
 1. <a href="https://doltegg.github.io/cathax/reply-1/" target="_blank">謹覆　台端檢舉案之調查結果</a>
-1. <a href="" target="_blank">獨立董事信箱</a>
+1. <a href="https://doltegg.github.io/cathax/independent-director-reply/" target="_blank">獨立董事信箱</a>
 1. <a href="https://doltegg.github.io/cathax/audit-reply/" target="_blank">金控稽核處的回覆</a>
 
 
