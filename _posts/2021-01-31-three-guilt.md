@@ -6,12 +6,16 @@ category: 說
 tags: []
 ---
 
+#### 綜合官方回應
+
+1. <a href="https://doltegg.github.io/cathax/reply-1/" target="_blank">謹覆　台端檢舉案之調查結果</a>
+1. <a href="" target="_blank">獨立董事信箱</a>
+1. <a href="https://doltegg.github.io/cathax/audit-reply/" target="_blank">金控稽核處的回覆</a>
 
 
 #### 國泰人壽霖園集團員工貸款
 
 1. <a href="https://doltegg.github.io/cathax/1st/" target="_blank">第一封檢舉信</a>
-1. <a href="https://doltegg.github.io/cathax/reply-1/" target="_blank">謹覆　台端檢舉案之調查結果</a>
 1. <a href="https://doltegg.github.io/cathax/life-insurancebureau/" target="_blank">檢舉國泰人壽加碼數違法提高 (找到法令)</a>
 1. <a href="https://doltegg.github.io/cathax/staff-mortgage-1/" target="_blank">霖園集團員工貸款</a>
 2. <a href="https://doltegg.github.io/cathax/staff-mortgage-2/" target="_blank">員工貸款借據違法</a>
@@ -63,8 +67,7 @@ tags: []
 2. <a href="https://doltegg.github.io/cathax/robo-9/" target="_blank">通過使用者測試？(乎之)</a>
 2. <a href="https://doltegg.github.io/cathax/robo-autism/" target="_blank">商品體驗會</a>
 2. <a href="https://doltegg.github.io/cathax/foi-apply/" target="_blank">評議申請</a>
-2. <a href="https://doltegg.github.io/cathax/supplyment/" target="_blank">補正</a>
 1. <a href="https://doltegg.github.io/cathax/make-statements/" target="_blank">向國泰世華銀行要求提出陳述意見書</a>
-
+2. <a href="https://doltegg.github.io/cathax/supplyment/" target="_blank">補正</a>
 
 
