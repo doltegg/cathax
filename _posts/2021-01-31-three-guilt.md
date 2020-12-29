@@ -41,4 +41,6 @@ tags: []
 
 #### 國泰世華銀行智能投資
 
-1. <a></a>
+1. <a href="https://doltegg.github.io/cathax/make-statements/" target="_blank">向國泰世華銀行要求提出陳述意見書</a>
+2. <a href="https://doltegg.github.io/cathax/supplyment/" target="_blank">補正</a>
+
