@@ -48,9 +48,19 @@ tags: []
 
 #### 國泰世華銀行智能投資
 
-1. <a href="" target="_blank"></a>
-2. <a href="" target="_blank"></a>
-2. <a href="" target="_blank"></a>
+1. <a href="https://doltegg.github.io/cathax/washing-white/" target="_blank">洗白程式</a>
+1. <a href="https://doltegg.github.io/cathax/washing-white2/" target="_blank">洗白程式 2.0</a>
+1. <a href="https://doltegg.github.io/cathax/washing-white3/" target="_blank">洗白程式 3.0</a>
+1. <a href="https://doltegg.github.io/cathax/ww3-1/" target="_blank">洗白程式 3.1</a>
+1. <a href="https://doltegg.github.io/cathax/robo-1/" target="_blank">數字邏輯─智能投資(之)</a>
+1. <a href="https://doltegg.github.io/cathax/robo-2/" target="_blank">體驗測試者─智能投資(乎)</a>
+1. <a href="https://doltegg.github.io/cathax/robo-3/" target="_blank">24小時監控市場─智能投資(者)</a>
+1. <a href="https://doltegg.github.io/cathax/robo-4/" target="_blank">最低年限─智能投資(之也)</a>
+1. <a href="https://doltegg.github.io/cathax/robo-5/" target="_blank">再平衡─智能投資(之之)</a>
+1. <a href="https://doltegg.github.io/cathax/robo-6/" target="_blank">智障投資─智能投資(之乎)</a>
+1. <a href="https://doltegg.github.io/cathax/robo-7/" target="_blank">違法？─智能投資(之者)</a>
+2. <a href="https://doltegg.github.io/cathax/robo-8/" target="_blank">報酬率─智能投資(乎也)</a>
+2. <a href="https://doltegg.github.io/cathax/robo-9/" target="_blank">通過使用者測試？(乎之)</a>
 2. <a href="https://doltegg.github.io/cathax/robo-autism/" target="_blank">商品體驗會</a>
 2. <a href="https://doltegg.github.io/cathax/foi-apply/" target="_blank">評議申請</a>
 2. <a href="https://doltegg.github.io/cathax/supplyment/" target="_blank">補正</a>
