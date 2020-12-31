@@ -49,6 +49,7 @@ tags: []
 
 #### 國泰人壽、國泰世華銀行、國泰產險指標利率
 
+1. <a href="https://doltegg.github.io/cathax/index-r/" target="_blank">指標利率公告</a>
 1. <a href="https://doltegg.github.io/cathax/2nd/" target="_blank">第二封檢舉信說明</a>
 1. <a href="https://doltegg.github.io/cathax/3rd/" target="_blank">第三封檢舉信說明</a>
 1. <a href="https://doltegg.github.io/cathax/ins-index-rate/" target="_blank">檢舉國泰產險指標利率灌水</a>
