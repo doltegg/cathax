@@ -6,9 +6,15 @@ category: 說
 tags: []
 ---
 
+#### 檢舉信
+
+1. <a href="https://doltegg.github.io/blog/works/article/1st.pdf" target="_blank">第一封檢舉信</a>
+1. <a href="https://doltegg.github.io/blog/works/article/2nd.pdf" target="_blank">第二封檢舉信</a>
+1. <a href="https://doltegg.github.io/blog/works/article/3rd.pdf" target="_blank">第三封檢舉信</a>
+
 #### 綜合官方回應
 
-1. <a href="https://doltegg.github.io/cathax/reply-1/" target="_blank">謹覆　台端檢舉案之調查結果</a>
+1. <a href="https://doltegg.github.io/cathax/reply-1/" target="_blank">檢舉制度回覆 (金控法遵部)</a>
 1. <a href="https://doltegg.github.io/cathax/independent-director-reply/" target="_blank">獨立董事信箱</a>
 1. <a href="https://doltegg.github.io/cathax/audit-reply/" target="_blank">金控稽核處的回覆</a>
 
