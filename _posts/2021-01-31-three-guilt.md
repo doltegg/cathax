@@ -49,11 +49,12 @@ tags: []
 
 #### 國泰人壽、國泰世華銀行、國泰產險指標利率
 
-1. <a href="https://doltegg.github.io/cathax/2nd/" target="_blank">第二封檢舉信</a>
-1. <a href="https://doltegg.github.io/cathax/3rd/" target="_blank">第三封檢舉信</a>
+1. <a href="https://doltegg.github.io/cathax/2nd/" target="_blank">第二封檢舉信說明</a>
+1. <a href="https://doltegg.github.io/cathax/3rd/" target="_blank">第三封檢舉信說明</a>
 1. <a href="https://doltegg.github.io/cathax/ins-index-rate/" target="_blank">檢舉國泰產險指標利率灌水</a>
 2. <a href="https://doltegg.github.io/cathax/life-index-rate/" target="_blank">重新檢舉國泰人壽指標利率灌水</a>
 2. <a href="https://doltegg.github.io/cathax/assets/img/2020/toaudit.pdf" target="_blank">指標利率算法 (給稽核的檢舉信)</a>
+1. <a href="https://doltegg.github.io/cathax/audit-reply/" target="_blank">金控稽核處的回覆</a>
 
 
 
