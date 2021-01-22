@@ -59,8 +59,6 @@ tags: []
 1. <a href="https://doltegg.github.io/cathax/audit-reply/" target="_blank">金控稽核處的回覆</a>
 
 
-
-
 #### 國泰世華銀行智能投資
 
 1. <a href="https://doltegg.github.io/cathax/washing-white/" target="_blank">洗白程式</a>
@@ -82,3 +80,8 @@ tags: []
 2. <a href="https://doltegg.github.io/cathax/supplyment/" target="_blank">補正</a>
 2. <a href="https://doltegg.github.io/cathax/assets/img/2020/foi_bk.pdf" target="_blank">評議中心判決評議書</a>
 
+#### 國泰世華銀行利率亂公告
+
+1. <a href="https://doltegg.github.io/cathax/assets/img/2020/foi_bk.pdf" target="_blank">檢舉信</a>
+2. <a href="https://doltegg.github.io/cathax/assets/img/2020/foi_bk.pdf" target="_blank">檢舉制度回復</a>
+2. <a href="https://doltegg.github.io/cathax/assets/img/2020/foi_bk.pdf" target="_blank">再檢舉</a>
