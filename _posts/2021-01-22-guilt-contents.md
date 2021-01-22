@@ -84,4 +84,4 @@ tags: []
 
 1. <a href="https://doltegg.github.io/cathax/cathaybk.indexr/" target="_blank">檢舉信</a>
 2. <a href="https://doltegg.github.io/cathax/cathaybkr-reply/" target="_blank">檢舉制度回復</a>
-2. <a href="https://doltegg.github.io/cathax/cathaybk.indexr2/" target="_blank">再檢舉</a>
+2. <a href="https://doltegg.github.io/cathax/cathaybk.indexr2/" target="_blank">提供犯罪事實再檢舉</a>
