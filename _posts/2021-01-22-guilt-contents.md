@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 國泰金控三大罪狀目錄
+title: 國泰金控罪狀目錄
 date: 2021-01-22
 category: 說
 tags: []
