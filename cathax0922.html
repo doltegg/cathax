@@ -1,0 +1,996 @@
+﻿<!doctype html>
+<html lang="zh-Hant-TW">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Cathax</title>
+
+		<!-- <link rel="stylesheet" href="../dist/reset.css">
+		<link rel="stylesheet" href="../dist/reveal.css">
+		<link rel="stylesheet" href="../dist/theme/black.css" id="theme"> -->
+        <!-- reveal CDN -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/reveal.min.css" rel="stylesheet" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/theme/black.min.css" rel="stylesheet"><!--black, white, league, beige, sky, night, serif, simple, solarized, blood, moon-->
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600;700&family=Raleway:wght@300;500;600;700;800&display=swap" rel="stylesheet">
+
+		<!-- Theme used for syntax highlighted code -->
+		<!-- <link rel="stylesheet" href="../plugin/highlight/monokai.css" id="highlight-theme"> -->
+
+        <!-- 另存pdf： ?print-pdf -->
+
+        <style>
+            body .reveal .slides *{
+                font-family: 'Raleway', sans-serif, 'Noto Sans TC', 微軟正黑體;
+            }
+            .reveal .slides .subject{
+                font-weight: 900;
+                font-size: 6.5rem;
+            }
+            .reveal .date-form{
+                padding-top:1.6rem;
+                font-size: 3rem;
+            }
+            .reveal .slides .author{
+                text-transform: lowercase;
+                font-size: 3rem;
+                font-weight: 500;
+                margin-top: 3rem;
+            }
+            .reveal .slides h2{
+                color: rgb(0, 180, 9);
+            }
+            .yellow{
+                color: yellow;
+            }  
+            .pink{
+                color: pink;
+            }
+            .reveal table tr td,
+            .reveal table tr th{
+                font-size: 1.5rem;
+                text-align: right;
+            }  
+            .reveal .slides table td{
+                border-bottom: none;
+                line-height: 1.65rem;
+            }
+            .reveal .slides table td:nth-child(7),
+            .reveal .slides table th:nth-child(7){
+                color: #aaa;
+            }
+            .reveal .slides table tr:last-child{
+                border-bottom: 2px solid #fff;
+            }
+            .reveal .slides table tr:first-child,
+            .reveal .slides table tr:first-child th{
+                border-top: 2px solid #fff;
+                border-bottom: 1px solid #fff;
+            }
+            .calc{
+                font-size: 1.75rem;
+                font-family: 'Raleway', sans-serif, 'Noto Sans TC', 微軟正黑體;
+            }
+
+            .reveal .container{
+                margin-top: 2rem;
+                display: flex;
+                justify-content: center;
+                align-items: stretch;
+                gap: 2rem;
+            }
+            .reveal .container .box{
+                width: 49.5%;
+                border: 3px solid #fff;
+                border-radius: 1rem;
+                padding: 2.5rem 3.2rem;
+            }
+            .reveal .container .box h3{
+                font-size: 3rem;
+            }
+            .reveal section .little{
+                font-size: 1.75rem;
+            }
+            /*
+            .reveal .container .box .content{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-end;
+            } 
+            .reveal .container .box .content div{
+                position: relative;
+                border: none;
+            }
+            .reveal .container .box .content div:nth-child(3){
+                margin-top: 5px; 
+                border: none;
+            }
+            .reveal .container .box .content div:nth-child(2)::before{
+                position: absolute;
+                content: '';
+                bottom: -2px;
+                left: -10%;
+                height: 1px;
+                width: 120%;
+                background: #eee;
+            }            
+            .reveal .container .box .content .operator{
+                position: relative;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .reveal h2{
+                font-weight: 700;
+            }
+            .reveal h4{
+                font-size: 2.25rem;
+            }
+            .reveal .tableBx{
+                display: flex;
+                justify-content: center;
+                gap: 2rem;
+            }
+            .reveal .tableBx div{
+                border: 3px solid #ccc;
+                border-radius: 1rem;
+                padding: 1.2rem 2.2rem;
+            }
+            .reveal .slides section table{
+                font-size: 1.5rem;
+            }
+            .reveal .slides table tr td{
+                text-align: right;
+            }
+            .reveal .slides table thead th{
+                text-align: center;
+            }
+            .reveal .slides section table tr td{                
+                border-bottom: none;
+            }
+            .reveal .slides section table tr td:first-of-type{
+                text-align: center;
+            }
+            .reveal .slides table tbody tr:last-of-type{
+                border-top: 1.5px solid #fff;
+            }
+            .reveal .slides section a{
+                font-size: 2.2rem;
+                display: inline-block;
+                margin-top: 1.75rem;
+                padding: .75rem 1.5rem;
+                border: 2px solid #eee;
+                border-radius: .8rem;
+                color:#fff; 
+                box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+            }
+            .reveal .slides section a:hover{
+                border: 2px solid #015eac;
+                background: #ddd;
+                color: #015eac;
+                letter-spacing: 2px;
+            } */
+        </style>
+	</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+
+    <section>
+        <h1 class="subject">Cathax</h1>
+        <p class="date-form">Sep 22, 2023</p>
+        <p class="author">egg</p>
+    </section>
+
+    <section>
+        <h2>定儲指標利率</h2>
+        <ul style="list-style: none;">
+            <li>按貸款契約書第3頁，第一章第九條：</li>
+            <li>前條所稱定儲指標利率，係指採台銀、土銀、合庫、一銀、華銀、彰銀、台北富邦銀、兆豐商銀、台灣企銀及中信銀十家行庫(扣除利率最高二家及最低二家)一年期一般定期儲蓄存款固定利率之平均值，取樣日期為該利率公告前之五個營業日。</li>
+        </ul>
+        <!-- <p style="width:100%; text-algin: left;">按貸款契約書第3頁，第一章第九條：<br>
+            前條所稱定儲指標利率，係指採台銀、土銀、合庫、一銀、華銀、彰銀、台北富邦銀、兆豐商銀、台灣企銀及中信銀十家行庫(扣除利率最高二家及最低二家)一年期一般定期儲蓄存款固定利率之平均值，取樣日期為該利率公告前之五個營業日。
+        </p> -->
+        <ul class="yellow">
+            <li>沒有「四捨五入」字樣</li>
+            <li>沒有「位數」字樣</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>2023年4月指標利率</h2>
+        <table>
+            <tr>
+                <th></th>
+                <th>3/27</th>
+                <th>3/28</th>
+                <th>3/29</th>
+                <th>3/30</th>
+                <th>3/31</th>
+                <th>mean</th>
+            </tr>
+            <tr>
+                <td>富邦</td>
+                <td>1.425</td>
+                <td>1.55</td>
+                <td>1.55</td>
+                <td>1.55</td>
+                <td>1.55</td>
+                <td>1.525</td>
+            </tr>
+            <tr>
+                <td>中信</td>
+                <td>1.425</td>
+                <td>1.55</td>
+                <td>1.55</td>
+                <td>1.55</td>
+                <td>1.55</td>
+                <td>1.525</td>
+            </tr>
+            <tr>
+                <td>台銀</td>
+                <td>1.6</td>
+                <td>1.6</td>
+                <td>1.6</td>
+                <td>1.6</td>
+                <td>1.6</td>
+                <td>1.6</td>
+            </tr>
+            <tr>
+                <td>土銀</td>
+                <td>1.6</td>
+                <td>1.6</td>
+                <td>1.6</td>
+                <td>1.6</td>
+                <td>1.6</td>
+                <td>1.6</td>
+            </tr>
+            <tr>
+                <td>合庫</td>
+                <td>1.6</td>
+                <td>1.6</td>
+                <td>1.6</td>
+                <td>1.6</td>
+                <td>1.6</td>
+                <td>1.6</td>
+            </tr>
+            <tr>
+                <td>兆豐</td>
+                <td>1.6</td>
+                <td>1.6</td>
+                <td>1.6</td>
+                <td>1.6</td>
+                <td>1.6</td>
+                <td>1.6</td>
+            </tr>
+            <tr>
+                <td>台企</td>
+                <td>1.6</td>
+                <td>1.6</td>
+                <td>1.6</td>
+                <td>1.6</td>
+                <td>1.6</td>
+                <td>1.6</td>
+            </tr>
+            <tr>
+                <td>一銀</td>
+                <td>1.63</td>
+                <td>1.63</td>
+                <td>1.63</td>
+                <td>1.63</td>
+                <td>1.63</td>
+                <td>1.63</td>
+            </tr>
+            <tr>
+                <td>彰銀</td>
+                <td>1.63</td>
+                <td>1.63</td>
+                <td>1.63</td>
+                <td>1.63</td>
+                <td>1.63</td>
+                <td>1.63</td>
+            </tr>
+            <tr>
+                <td>華銀</td>
+                <td>1.635</td>
+                <td>1.635</td>
+                <td>1.635</td>
+                <td>1.635</td>
+                <td>1.635</td>
+                <td>1.635</td>
+            </tr>
+        </table>
+        <p class="yellow little">
+            (1.6$\times$25$+$1.63$\times$5)$\div$30$=$1.605<br>
+            並非1.61
+        </p>        
+    </section>
+
+    <section>
+        <h2>消費者保護法第11條</h2>
+        <p class="pink">定型化契約條款如有疑義時，應為有利於消費者之解釋。</p>  
+        <ul>沒記載「四捨五入」
+            <li>入：絕對不行，對消費者不利。</li>
+            <li>捨：可以，對消費者有利。</li>
+        </ul> 
+    </section>
+
+    <section>
+        <h2>定型化契約是誰擬定的？</h2>
+        <p style="color: gray;"><small style="font-size: 1.85rem;">定型化契約，指以一方當事人預先擬定之條款為內容而訂立之契約。其特色在於，他方必須接受該條款，而無商量餘地。</small></p>
+        <ul>
+            <li>違法：無效。</li>
+            <li>爭議：有利於消費者之解釋。</li>
+            <li>誰叫國泰人壽這麼不專業。想留幹壞事的後門，真不要臉！</li>
+            <li class="pink">不四捨五入怎麼辦？貸款金額又不是無限大，取最大數的位數。</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>○○○辦法</h2>
+        <div class="container">
+            <div class="box">
+                <h3>請問</h3>
+                <ul>
+                    <li>誰知道該辦法？</li>
+                    <li>有交付嗎？</li>
+                    <li>有審閱期嗎？</li>
+                    <li>哪裡找得到？</li>                    
+                </ul>
+            </div>
+
+            <div class="box">
+                <h3>違反法律</h3>
+                <ul>
+                    <li>消保法#11-1</li>
+                    <li>消保法#13</li>
+                    <li>消保法#14</li>
+                    <li>定型化契約規範</li>
+                </ul>
+            </div>
+        </div> 
+        <p class="yellow">不法所得數千萬</p>       
+        <p>消保法#17-1，業主負舉證責任。</p>
+    </section>
+
+    <section>
+        <h2>員工貸款特別約款</h2>
+        <ul style="list-style: none;">
+            <li>按貸款契約書第24頁，第三條第(二)項</li>
+            <li>其餘未盡事宜悉依「霖園集團員工貸款辦法」及乙方相關辦法辦理。若因而導致利率提高之結果，亦無須另行事先通知或另行取得甲方之同意。</li>
+        </ul>
+        <ul>
+            <li>嚴重違反消費者保護法</li>
+            <li>嚴重違反個人購屋貸款定型化契約應記載事項</li>
+            <li>要消費者拋棄權利，違反公平</li>
+        </ul>
+        <p class="yellow">無效<br>
+            業主負舉證責任</p>
+    </section>
+
+    <section>
+        <h2>四捨五入次數與位數</h2>
+        <div class="container">
+            <div class="box">
+                <h3>四捨五入</h3>
+                <ul>
+                    <li>捨，可。入，絕對不可。</li>
+                    <li>為何還多次四捨五入？</li>
+                    <li>利率的小數點第3位必是5。</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>位數</h3>
+                <ul>
+                    <li>利率宣告3位數，為何把5先進位？</li>
+                    <li>產生不一致。</li>
+                    <li>小數點前不可以嗎？為什麼？</li>                    
+                </ul>
+            </div>
+        </div>           
+    </section>
+
+    <section>
+        <h2>邏輯</h2>
+        <ul>如果要四捨五入，有利有利於消費者的話，
+            <li>四捨五入到小數點前2位</li>
+            <li>計算每期期款時，月利率=1.605%/12=0.13375%，應用0.13%來算利息與期款。(這是最基本的公平)</li>
+        </ul> 
+        <p>利率調整書面、簡訊通知是1.610000000%</p>
+    </section>
+
+    <section>
+        <h2>證據</h2>
+        <p class="little">2005年7月指標利率</p>
+        <table>
+            <tr>
+                <th></th>
+                <th>6/24</th>
+                <th>6/27</th>
+                <th>6/28</th>
+                <th>6/29</th>
+                <th>6/30</th>
+                <th>mean</th>
+            </tr>
+            <tr>
+                <td>兆豐</td>
+                <td>1.67</td>
+                <td>1.67</td>
+                <td>1.67</td>
+                <td>1.67</td>
+                <td>1.67</td>
+                <td>1.67</td>
+            </tr>
+            <tr>
+                <td>中信</td>
+                <td>1.7</td>
+                <td>1.7</td>
+                <td>1.7</td>
+                <td>1.7</td>
+                <td>1.7</td>
+                <td>1.7</td>
+            </tr>
+            <tr>
+                <td>富邦</td>
+                <td>1.7</td>
+                <td>1.7</td>
+                <td>1.7</td>
+                <td>1.7</td>
+                <td>1.7</td>
+                <td>1.7</td>
+            </tr>
+            <tr>
+                <td>彰銀</td>
+                <td>1.71</td>
+                <td>1.71</td>
+                <td>1.71</td>
+                <td>1.71</td>
+                <td>1.71</td>
+                <td>1.71</td>
+            </tr>
+            <tr>
+                <td>土銀</td>
+                <td>1.715</td>
+                <td>1.715</td>
+                <td>1.715</td>
+                <td>1.715</td>
+                <td>1.715</td>
+                <td>1.715</td>
+            </tr>
+            <tr>
+                <td>合庫</td>
+                <td>1.715</td>
+                <td>1.715</td>
+                <td>1.715</td>
+                <td>1.715</td>
+                <td>1.715</td>
+                <td>1.715</td>
+            </tr>
+            <tr>
+                <td>台銀</td>
+                <td>1.72</td>
+                <td>1.72</td>
+                <td>1.72</td>
+                <td>1.72</td>
+                <td>1.72</td>
+                <td>1.72</td>
+            </tr>
+            <tr>
+                <td>一銀</td>
+                <td>1.72</td>
+                <td>1.72</td>
+                <td>1.72</td>
+                <td>1.72</td>
+                <td>1.72</td>
+                <td>1.72</td>
+            </tr>
+            <tr>
+                <td>華銀</td>
+                <td>1.72</td>
+                <td>1.72</td>
+                <td>1.72</td>
+                <td>1.72</td>
+                <td>1.72</td>
+                <td>1.72</td>
+            </tr>
+            <tr>
+                <td>台企</td>
+                <td>1.72</td>
+                <td>1.72</td>
+                <td>1.72</td>
+                <td>1.72</td>
+                <td>1.72</td>
+                <td>1.72</td>
+            </tr>
+        </table>
+        <p class="little">契約書版$=$1.713333，
+        辦法版$=$1.715<br>
+        <span class="yellow">宣告1.71 $\Rightarrow$ 證明契約書版</span></p>
+    </section>
+
+    <section>
+        <h2>業務登載不實</h2>
+        <p class="little">2009年3月指標利率</p>
+        <table>
+            <tr>
+                <th></th>
+                <th>2/23</th>
+                <th>2/24</th>
+                <th>2/25</th>
+                <th>2/26</th>
+                <th>2/27</th>
+                <th>mean</th>
+            </tr>
+            <tr>
+                <td>兆豐</td>
+                <td>0.76</td>
+                <td>0.76</td>
+                <td>0.76</td>
+                <td>0.76</td>
+                <td>0.76</td>
+                <td>0.76</td>
+            </tr>
+            <tr>
+                <td>台銀</td>
+                <td>0.795</td>
+                <td>0.795</td>
+                <td>0.795</td>
+                <td>0.795</td>
+                <td>0.795</td>
+                <td>0.795</td>
+            </tr>
+            <tr>
+                <td>土銀</td>
+                <td>0.795</td>
+                <td>0.795</td>
+                <td>0.795</td>
+                <td>0.795</td>
+                <td>0.795</td>
+                <td>0.795</td>
+            </tr>
+            <tr>
+                <td>合庫</td>
+                <td>0.795</td>
+                <td>0.795</td>
+                <td>0.795</td>
+                <td>0.795</td>
+                <td>0.795</td>
+                <td>0.795</td>
+            </tr>
+            <tr>
+                <td>華銀</td>
+                <td>0.795</td>
+                <td>0.795</td>
+                <td>0.795</td>
+                <td>0.795</td>
+                <td>0.795</td>
+                <td>0.795</td>
+            </tr>
+            <tr>
+                <td>彰銀</td>
+                <td>0.795</td>
+                <td>0.795</td>
+                <td>0.795</td>
+                <td>0.795</td>
+                <td>0.795</td>
+                <td>0.795</td>
+            </tr>
+            <tr>
+                <td>富邦</td>
+                <td>0.795</td>
+                <td>0.795</td>
+                <td>0.795</td>
+                <td>0.795</td>
+                <td>0.795</td>
+                <td>0.795</td>
+            </tr>
+            <tr>
+                <td>中信</td>
+                <td>0.945</td>
+                <td>0.795</td>
+                <td>0.795</td>
+                <td>0.795</td>
+                <td>0.795</td>
+                <td>0.825</td>
+            </tr>
+            <tr>
+                <td>台企</td>
+                <td>0.95</td>
+                <td>0.8</td>
+                <td>0.8</td>
+                <td>0.8</td>
+                <td>0.8</td>
+                <td>0.83</td>
+            </tr>
+            <tr>
+                <td>一銀</td>
+                <td>0.845</td>
+                <td>0.845</td>
+                <td>0.845</td>
+                <td>0.845</td>
+                <td>0.845</td>
+                <td>0.845</td>
+            </tr>
+        </table>
+        <p class="little">契約書版$=$0.8，
+            辦法版$=$0.805。<br>
+        <span class="yellow">宣告0.81</span></p>
+    </section>
+
+    <section>
+        <h2>案發經過</h2>
+        <ul>
+            <li>2005年7月證明，契約書版本計算方式</li>
+            <li>2009年3月用了11次四捨五入不實登載利率(刑法業務登載不實)
+                <ul>
+                    <li>國泰人壽、國泰世華、國泰產險聯合做案</li>
+                    <!-- <li>我向主管機管檢舉，所以人壽、世華、產險高層都知道</li> -->
+                </ul>
+            </li>
+            <li>案發後，為了掩滅證據，開始偷偷擬定作業辦法(刑法業務登載不實)</li>
+            <li>就作業面，辦法擬定後，未修改貸款契約書(刑法的詐欺)</li>
+            <li>2020年向金控檢舉，證據(20年)全部被隱匿湮滅(刑法)</li>
+        </ul>
+    </section>
+
+
+    <section>
+       <h1>檢舉</h1>
+    </section>
+
+    <section>
+        <h2>指標利率記載不實</h2>
+        <div class="container">
+            <div class="box">
+                <h3>詐術</h3>
+                <ul style="font-size: 1.75rem;">
+                    <li>2009年3月</li>
+                    <li>○○○辦法</li>
+                    <li>2010年1月</li>
+                    <li>2010年7月</li>
+                    <li>2011年1月</li>
+                    <li>2011年4月</li>
+                    <li>2022年7月</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>錯誤</h3>
+                <ul style="font-size: 1.75rem;">
+                    <li class="pink">2005年4月</li>
+                    <li class="pink">2006年1月</li>
+                    <li class="pink">2015年10月</li>
+                </ul>
+            </div>
+        </div>        
+        <p class="yellow little">人壽、產險、銀行都有相同的違法！</p>
+    </section>
+
+    <section>
+        <h2>詐騙</h2>
+        <ul>
+            <li>貸款契約書的約定與實際計算指標利率不同</li>
+            <li>明明約定A，卻宣告B</li>
+            <li>明明辦法B，卻用假的貸款書A欺騙消費者</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>錯誤</h2>
+        <p class="little">2005年4月指標利率</p>
+        <table>
+            <tr>
+                <th></th>
+                <th>3/25</th>
+                <th>3/28</th>
+                <th>3/29</th>
+                <th>3/30</th>
+                <th>3/31</th>
+                <th>mean</th>
+            </tr>
+            <tr>
+                <td>兆豐</td>
+                <td>1.59</td>
+                <td>1.59</td>
+                <td>1.59</td>
+                <td>1.59</td>
+                <td>1.59</td>
+                <td>1.59</td>
+            </tr>
+            <tr>
+                <td>中信</td>
+                <td>1.60</td>
+                <td>1.60</td>
+                <td>1.60</td>
+                <td>1.60</td>
+                <td>1.60</td>
+                <td>1.60</td>
+            </tr>
+            <tr>
+                <td>彰銀</td>
+                <td>1.60</td>
+                <td>1.60/td>
+                <td>1.6</td>
+                <td>1.71</td>
+                <td>1.71</td>
+                <td>1.644</td>
+            </tr>
+            <tr>
+                <td>富邦</td>
+                <td>1.60</td>
+                <td>1.60</td>
+                <td>1.70</td>
+                <td>1.70</td>
+                <td>1.70</td>
+                <td>1.66</td>
+            </tr>
+            <tr>
+                <td>一銀</td>
+                <td>1.625</td>
+                <td>1.625</td>
+                <td>1.625</td>
+                <td>1.72</td>
+                <td>1.72</td>
+                <td>1.663</td>
+            </tr>
+            <tr>
+                <td>台企</td>
+                <td>1.625</td>
+                <td>1.625</td>
+                <td>1.625</td>
+                <td>1.72</td>
+                <td>1.72</td>
+                <td>1.663</td>
+            </tr>
+            <tr>
+                <td>土銀</td>
+                <td>1.615</td>
+                <td>1.615</td>
+                <td>1.715</td>
+                <td>1.715</td>
+                <td>1.715</td>
+                <td>1.675</td>
+            </tr>
+            <tr>
+                <td>合庫</td>
+                <td>1.615</td>
+                <td>1.695</td>
+                <td>1.695</td>
+                <td>1.695</td>
+                <td>1.695</td>
+                <td>1.679</td>
+            </tr>
+            <tr>
+                <td>台銀</td>
+                <td>1.62</td>
+                <td>1.72</td>
+                <td>1.72</td>
+                <td>1.72</td>
+                <td>1.72</td>
+                <td>1.70</td>
+            </tr><tr>
+                <td>華銀</td>
+                <td>1.62</td>
+                <td>1.72</td>
+                <td>1.72</td>
+                <td>1.72</td>
+                <td>1.72</td>
+                <td>1.70</td>
+            </tr>
+        </table>
+        <p class="little">契約書版$=$1.664，
+            辦法版$=$1.663。<br>
+        <span class="yellow">宣告1.67</span></p>
+    </section>
+
+    <section>
+        <h2>不實</h2>
+        <p class="little">2006年1月指標利率</p>
+        <table>
+            <tr>
+                <th></th>
+                <th>12/26</th>
+                <th>12/27</th>
+                <th>12/28</th>
+                <th>12/29</th>
+                <th>12/30</th>
+                <th>mean</th>
+            </tr>
+            <tr>
+                <td>中信</td>
+                <td>1.9</td>
+                <td>1.9</td>
+                <td>1.9</td>
+                <td>1.9</td>
+                <td>2.0</td>
+                <td>1.92</td>
+            </tr>
+            <tr>
+                <td>富邦</td>
+                <td>1.9</td>
+                <td>1.9</td>
+                <td>1.9</td>
+                <td>2.0</td>
+                <td>2.0</td>
+                <td>1.94</td>
+            </tr>
+            <tr>
+                <td>兆豐</td>
+                <td>1.88</td>
+                <td>1.98</td>
+                <td>1.98</td>
+                <td>1.98</td>
+                <td>1.98</td>
+                <td>1.96</td>
+            </tr>
+            <tr>
+                <td>彰銀</td>
+                <td>1.92</td>
+                <td>1.92</td>
+                <td>2.02</td>
+                <td>2.02</td>
+                <td>2.02</td>
+                <td>1.98</td>
+            </tr>
+            <tr>
+                <td>一銀</td>
+                <td>1.92</td>
+                <td>1.92</td>
+                <td>2.02</td>
+                <td>2.02</td>
+                <td>2.02</td>
+                <td>1.98</td>
+            </tr>
+            <tr>
+                <td>台企</td>
+                <td>1.92</td>
+                <td>1.92</td>
+                <td>2.02</td>
+                <td>2.02</td>
+                <td>2.02</td>
+                <td>1.98</td>
+            </tr>
+            <tr>
+                <td>土銀</td>
+                <td>1.915</td>
+                <td>2.015</td>
+                <td>2.015</td>
+                <td>2.015</td>
+                <td>2.015</td>
+                <td>1.995</td>
+            </tr>
+            <tr>
+                <td>華銀</td>
+                <td>1.92</td>
+                <td>2.02</td>
+                <td>2.02</td>
+                <td>2.02</td>
+                <td>2.02</td>
+                <td>1.98</td>
+            </tr>
+            <tr>
+                <td>合庫</td>
+                <td>2.015</td>
+                <td>2.015</td>
+                <td>2.015</td>
+                <td>2.015</td>
+                <td>2.015</td>
+                <td>2.015</td>
+            </tr>
+            <tr>
+                <td>台銀</td>
+                <td>2.02</td>
+                <td>2.02</td>
+                <td>2.02</td>
+                <td>2.02</td>
+                <td>2.02</td>
+                <td>2.02</td>
+            </tr>
+        </table>
+        <p class="little">契約書版$=$1.9825，
+            辦法版$=$1.9833。<br>
+        <span class="yellow">宣告1.99<span></span></p>
+    </section>
+    
+
+    <section>
+        <h2>不得記載事項</h2>
+        <ul style="list-style: none;">
+            <li>個人購屋貸款定型化契約不得記載事項第八條：</li>
+            <li>金融機構不得使用「放款利率加減碼標準」於契約存續期間任意調整借款人之利率。</li>
+        </ul>
+        <ul style="list-style: none;margin-top: 1.2rem;">
+            <li>貸款契約書員工貸款特別條款第一條：</li>
+            <li>自借款日起即依當月乙方公布之定儲指標利率及加碼數(固定於每年七月調整，目前0.46%)，二者之和按月計付利息。</li>
+        </ul>
+        <p class="yellow">不法所得近10億元。</p>
+    </section>
+
+    <section>
+        <h2>違法</h2>
+        <ul>
+            <li>保險業辦理放款其徵信核貸複審等作業規範第29條，於契約中記載借款利率或其確定方式。</li>
+            <li>與借款人簽立借據或借貸契約書，未載明利率或其確定方式。《公平交易委員會對於金融業之規範說明第8點》、《公平交易法#25》</li>
+            <li>國泰人壽單方面調高利率，《消費者保護法》公平嗎？</li>
+            <li>未經消費者同意，《消費者保護法》公平嗎？</li>
+            <li>未通知消費者，《定型化契約應記載事項》</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>如果每年七月調整有效</h2>
+        <ul>
+            <li>公平嗎？業者負舉證責任</li>
+            <li>說明如何的「確定方式」</li>
+            <li>我自104年貸款至今，從未調整</li>
+            <li>用5大行庫新放利率比較，我的利率逐漸偏高，完全不公平</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>應記載事項</h2>
+        <ul>
+            <li>國泰世華銀行在定型化契約上沒有記載指標利率的定義。</li>
+            <li>可不可以用台銀的活期存款利率當指標利率？</li>
+        </ul>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+   
+    
+    
+   
+
+            
+</div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/js/reveal.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/lib/js/head.min.js" integrity="sha512-8Nk/zoTKjNixnM15wXjpF26KR4Ln87cc5Yllc5xP54wwbcKnljAAn2JP+tYAS8+4e7s/XK8XTiDH0Ltw2fmoBQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/math/math.min.js" integrity="sha512-Ff14h74LQq8X4XUGJ1yA4MYyVxtT1yu/Eo4cCpuPq1SN9DyW+kt6PXbgDz70PGZ95o87Sxkg6cTMO5bSxxJWsQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/print-pdf/print-pdf.min.js" integrity="sha512-uhYwbC0CpSGKTfY5srUsGoJ4fcVYzEmD/OU8PRL6aIkWfoGr89DCN/HU5j+tPKHZzKJyZ2e2TKLgJnSYg0AyAg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/math/math.js"></script>
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/notes/notes.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/markdown/markdown.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/highlight/highlight.js"></script> -->
+
+    <script>
+        // More info about initialization & config:
+        // - https://revealjs.com/initialization/
+        // - https://revealjs.com/config/
+        Reveal.initialize({
+            hash: true,
+            slideNumber: true,
+            math: {
+                mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js', 
+                config: 'TeX-AMS_HTML-full',
+                TeX: { Macros: { RR: "{\\bf R}" } }
+            },
+
+            // Learn about plugins: https://revealjs.com/plugins/
+            // plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath, ],
+        });
+    </script>
+</body>
+</html>
+
