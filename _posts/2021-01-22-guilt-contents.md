@@ -6,6 +6,9 @@ category: 說
 tags: []
 ---
 
+### 訴狀
+1. <a href="https://doltegg.github.io/blog/works/article/xy.docx">李主任陳報狀</a>
+
 #### 檢舉信
 
 1. <a href="https://doltegg.github.io/blog/works/article/1st.pdf" target="_blank">第一封檢舉信</a>
